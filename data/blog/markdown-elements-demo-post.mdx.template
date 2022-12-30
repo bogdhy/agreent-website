@@ -1,10 +1,9 @@
 ---
-publishDate: 'Aug 02 2022'
-title: 'Markdown elements demo post'
-description: 'Lorem ipsum dolor sit amet'
-excerpt: 'Sint sit cillum pariatur eiusmod nulla pariatur ipsum. Sit laborum anim qui mollit tempor pariatur nisi minim dolor. Aliquip et adipisicing sit sit fugiat'
-image: '~/assets/images/astronaut.jpg'
-tags: [markdown, blog, Astro]
+publishDate: 'Dec 26 2022'
+title: 'Internet 101 - An Introduction to the World Wide Web'
+description: 'The internet has become an essential part of modern life, but have you ever stopped to think about how it works'
+image: '~/assets/images/internet.jpg'
+tags: [internet, how-it-works, introduction]
 ---
 
 import Logo from '~/components/atoms/Logo.astro';

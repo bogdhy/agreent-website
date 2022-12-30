@@ -1,15 +1,15 @@
 export const SITE = {
-	name: 'AstroWind',
+	name: 'Agreent',
 
-	origin: 'https://astrowind.vercel.app',
+	origin: 'https://agreent.com',
 	basePathname: '/',
 	trailingSlash: false,
 
-	title: 'AstroWind — Your website with Astro + Tailwind CSS',
-	description: '🚀 AstroWind is a free and ready to start template to make your website using Astro and Tailwind CSS.',
+	title: 'Agreent — Your Journey to Building a Product',
+	description: 'Join us on a journey towards building a successful product using robust web technologies.',
 
-	googleAnalyticsId: false, // or "G-XXXXXXXXXX",
-	googleSiteVerificationId: 'orcPxI47GSa-cRvY11tUe6iGg2IO_RPvnA1q95iEM3M',
+	googleAnalyticsId: 'GTM-TG3WSF4',
+	googleSiteVerificationId: false,
 };
 
 export const BLOG = {
