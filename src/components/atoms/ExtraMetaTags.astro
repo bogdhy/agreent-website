@@ -2,6 +2,7 @@
 import { getRelativeLink } from '~/utils/permalinks';
 ---
 
-<link rel="shortcut icon" href={getRelativeLink('/favicon.ico')} />
-<link rel="icon" type="image/svg+xml" href={getRelativeLink('/favicon.svg')} />
-<link rel="mask-icon" href={getRelativeLink('/favicon.svg')} color="#8D46E7" />
+<link rel="apple-touch-icon" sizes="180x180" href={getRelativeLink('/apple-touch-icon.png')} />
+<link rel="icon" type="image/png" sizes="32x32" href={getRelativeLink('/favicon-32x32.png')} />
+<link rel="icon" type="image/png" sizes="16x16" href={getRelativeLink('/favicon-16x16.png')} />
+<link rel="manifest" href={getRelativeLink('/site.webmanifest')} />

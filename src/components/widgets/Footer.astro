@@ -4,28 +4,6 @@ import { getHomePermalink, getRelativeLink } from '~/utils/permalinks';
 
 const links = [
 	{
-		title: 'Product',
-		items: [
-			{ title: 'Features', href: '#' },
-			{ title: 'Security', href: '#' },
-			{ title: 'Team', href: '#' },
-			{ title: 'Enterprise', href: '#' },
-			{ title: 'Customer stories', href: '#' },
-			{ title: 'Pricing', href: '#' },
-			{ title: 'Resources', href: '#' },
-		],
-	},
-	{
-		title: 'Platform',
-		items: [
-			{ title: 'Developer API', href: '#' },
-			{ title: 'Partners', href: '#' },
-			{ title: 'Atom', href: '#' },
-			{ title: 'Electron', href: '#' },
-			{ title: 'AstroWind Desktop', href: '#' },
-		],
-	},
-	{
 		title: 'Support',
 		items: [
 			{ title: 'Docs', href: '#' },
@@ -34,36 +12,22 @@ const links = [
 			{ title: 'Skills', href: '#' },
 			{ title: 'Status', href: '#' },
 		],
-	},
-	{
-		title: 'Company',
-		items: [
-			{ title: 'About', href: '#' },
-			{ title: 'Blog', href: '#' },
-			{ title: 'Careers', href: '#' },
-			{ title: 'Press', href: '#' },
-			{ title: 'Inclusion', href: '#' },
-			{ title: 'Social Impact', href: '#' },
-			{ title: 'Shop', href: '#' },
-		],
-	},
+	}
 ];
 
 const social = [
-	{ label: 'Twitter', icon: 'tabler:brand-twitter', href: '#' },
-	{ label: 'Instagram', icon: 'tabler:brand-instagram', href: '#' },
-	{ label: 'Facebook', icon: 'tabler:brand-facebook', href: '#' },
+	{ label: 'Twitter', icon: 'tabler:brand-twitter', href: 'https://twitter.com/agreent_dev' },
 	{ label: 'RSS', icon: 'tabler:rss', href: getRelativeLink('/rss.xml') },
-	{ label: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/onwidget/astrowind' },
+	{ label: 'Github', icon: 'tabler:brand-github', href: 'https://github.com/bogdhy' },
 ];
 ---
 
 <footer class="border-t border-gray-200 dark:border-slate-800">
 	<div class="max-w-6xl mx-auto px-4 sm:px-6">
 		<div class="grid grid-cols-12 gap-4 gap-y-8 sm:gap-8 py-8 md:py-12">
-			<div class="col-span-12 lg:col-span-4">
+			<div class="col-span-12 lg:col-span-10">
 				<div class="mb-2">
-					<a class="inline-block font-bold text-xl" href={getHomePermalink()}>AstroWind</a>
+					<a class="inline-block font-bold text-xl" href={getHomePermalink()}>Agreent DEV</a>
 				</div>
 				<div class="text-sm text-gray-600">
 					<a
@@ -107,6 +71,8 @@ const social = [
 								class="text-gray-500 dark:text-gray-400 hover:bg-gray-100 dark:hover:bg-gray-700 focus:outline-none focus:ring-4 focus:ring-gray-200 dark:focus:ring-gray-700 rounded-lg text-sm p-2.5 inline-flex items-center"
 								aria-label={label}
 								href={href}
+								target="_blank"
+									rel="noopener"
 							>
 								<Icon name={icon} class="w-5 h-5" />
 							</a>
