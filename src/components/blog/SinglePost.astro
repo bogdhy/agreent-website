@@ -50,6 +50,7 @@ const { post, url } = Astro.props;
 			<SocialShare
 				url={url}
 				text={post.title}
+				hashtags={post.tags.join(",")}
 				class="mt-5 sm:mt-1 align-middle text-gray-500 dark:text-slate-600"
 			/>
 		</div>
