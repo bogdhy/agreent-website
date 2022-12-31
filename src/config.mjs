@@ -8,7 +8,7 @@ export const SITE = {
 	title: 'Agreent — Your Journey to Building a Product',
 	description: 'Join us on a journey towards building a successful product using robust web technologies.',
 
-	googleAnalyticsId: 'GTM-TG3WSF4',
+	googleAnalyticsId: 'G-EC0LF54JJ8',
 	googleSiteVerificationId: false,
 };
 
