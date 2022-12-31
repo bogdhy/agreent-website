@@ -1,0 +1,174 @@
+---
+publishDate: 'Dec 30 2022'
+title: 'Getting Started with HTML'
+description: 'It stands for Hypertext Markup Language, but that is a mouthful, so we just call it HTML'
+image: '~/assets/images/html.jpg'
+tags: [html, introduction]
+canonical: https://agreent.com/getting-started-with-html
+---
+
+## What is HTML?
+
+HTML is a special language that we use to make websites. It stands for Hypertext Markup Language, but that's a mouthful, so we just call it HTML.
+
+When you make a website, you use HTML to tell your computer what you want it to look like.
+
+You can use HTML to add pictures, words, and buttons to your website. You can also use it to change the way things look, like the font or the background color.
+
+To use HTML, you need a special program called a text editor (or write in notepad like a god).
+
+You can use this to write your HTML code and save it as a file. Then, when you open the file in a web browser, the browser will show you what your website looks like.
+
+## What is an HTML Element?
+
+What is an HTML Element?
+An HTML element is a piece of content that is contained within an HTML document. It consists of an opening tag, content, and a closing tag. The opening and closing tags are used to mark the beginning and end of the element, and the content is the text or other media that is contained within the element.
+
+For example, the following is an HTML element that creates a heading:
+
+```html
+<h1>This is a heading</h1>
+```
+
+In this example, `<h1>` is the opening tag, `</h1>` is the closing tag, and "This is a heading" is the content.
+
+HTML elements can be nested, which means that one element can be contained within another element. For example, you might have a paragraph element that contains a link element:
+
+```html
+<p>This is a paragraph that contains a <a href="http://www.example.com">link</a>.</p>
+```
+
+In this example, the `<a>` element is nested within the `<p>` element.
+
+HTML elements are used to structure and format the content of an HTML document. There are many different types of HTML elements, including headings, paragraphs, lists, tables, and more.
+
+Each element has its own specific purpose and can be styled using CSS (Cascading Style Sheets) to change its appearance.
+
+## Basic HTML Syntax
+
+### Common HTML Elements
+
+- Headings: `<h1>`, `<h2>`, `<h3>`, etc.
+- Paragraphs: `<p>`
+- Lists: `<ul>`, `<ol>`, `<li>`
+- Links: `<a>`
+- Images: `<img>`
+- Tables: `<table>`, `<tr>`, `<td>`, etc.
+- Forms: `<form>`, `<input>`, `<button>`, etc.
+
+### Page Structure
+
+- The `<head>` element: metadata and link elements
+- The `<body>` element: main content of the page
+- The `<header>` element: top section of the page
+- The `<footer>` element: bottom section of the page
+- The `<nav>` element: navigation links
+- The `<main>` element: main content of the page
+
+### Example
+
+```html
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>My HTML Page</title>
+	</head>
+	<body>
+		<header>
+			<h1>Welcome to My HTML Page</h1>
+		</header>
+		<nav>
+			<ul>
+				<li><a href="#">Home</a></li>
+				<li><a href="#">About</a></li>
+				<li><a href="#">Contact</a></li>
+			</ul>
+		</nav>
+		<main>
+			<h2>About Me</h2>
+			<p>
+				I'm a web developer and I love learning about new technologies and programming languages. I'm especially
+				interested in HTML, which is the language used to create the structure and content of webpages.
+			</p>
+			<h2>My Skills</h2>
+			<ul>
+				<li>HTML</li>
+				<li>CSS</li>
+				<li>JavaScript</li>
+				<li>PHP</li>
+			</ul>
+			<h2>Contact Me</h2>
+			<form>
+				<label for="name">Name:</label><br />
+				<input type="text" id="name" name="name" /><br />
+				<label for="email">Email:</label><br />
+				<input type="email" id="email" name="email" /><br />
+				<label for="message">Message:</label><br />
+				<textarea id="message" name="message"></textarea><br />
+				<input type="submit" value="Send" />
+			</form>
+		</main>
+		<footer>
+			<p>Copyright 2021</p>
+		</footer>
+	</body>
+</html>
+```
+
+This page includes the following common HTML elements:
+
+- `<html>`: the root element of an HTML page
+- `<head>`: the head element contains metadata and link elements
+- `<title>`: the title element specifies the title of the page, which is displayed in the browser's title bar
+- `<body>`: the body element contains the main content of the page
+- `<header>`: the header element represents the top section of the page
+- `<h1>`, `<h2>`: headings are used to create different levels of headings
+- `<nav>`: the nav element represents a section of the page that contains navigation links
+- `<ul>`, `<li>`: unordered lists and list items are used to create lists of items
+- `<p>`: the p element is used to create paragraphs
+- `<a>`: the a element is used to create links
+- `<form>`: the form element is used to create a form that allows users to input data and submit it to the server
+- `<label>`: the label element is used to create a label for a form element
+- `<input>`: the input element is used to create various types of input fields, such as text fields and email fields
+- `<textarea>`: the textarea element is used to create a multi-line text input field
+- `<footer>`: the footer element represents
+
+## Practice, Practice, and Practice
+
+One of the keys to success in learning HTML (and any other programming language) is practice. The more you practice, the better you'll become at writing code and understanding how HTML works.
+
+A great way to practice is to build a project of your own. This could be a simple website or a more complex web application. The goal here is to apply what you've learned and create something that's meaningful to you.
+
+As you practice, be sure to keep the following in mind:
+
+- Don't be afraid to make mistakes. It's natural to make mistakes when you're learning something new, and it's a normal part of the learning process. The important thing is to learn from your mistakes and keep trying.
+
+- Keep learning. There's always more to learn when it comes to programming, and HTML is no exception. As you practice, be sure to keep learning new concepts and techniques to improve your skills.
+
+- Get feedback. It can be helpful to get feedback on your work from others, whether it's from a mentor or a community of fellow learners. This can help you identify areas where you can improve and give you valuable insights into how to progress.
+
+## The challenge - Building a Website for a Small Business
+
+Imagine that you've been hired to build a website for a small business. The business owner wants a simple website that will allow customers to learn more about the business, view a list of products or services, and contact the business for more information.
+
+To get started, you'll need to gather some information from the business owner. This might include:
+
+- A list of products or services offered
+- Photos or graphics to use on the website
+- Contact information for the business
+- Any specific design preferences or branding guidelines
+- With this information in hand, you can begin to plan out the structure and content of the website. You'll want to create a clear and easy-to-navigate layout that showcases the business's products or services, while also providing important information like the business's location, hours, and contact details.
+
+To build the website, you'll use HTML to create the structure and layout of the pages. You might use elements like `<h1>` for headings, `<p>` for paragraphs, `<ul>` for lists, and `<img> `for images.
+
+Once the website is complete, you'll test it on different devices and browsers to ensure that it looks and functions correctly. Then, you'll upload the website to a server and make it live for the world to see.
+
+<a href="https://stackblitz.com/fork/web-platform" target="_blank"><button style="padding: 0.75rem; border-radius: 0.375rem;border-width: 1px; background-color: #000;color: #fff">Happy coding</button></a>
+
+#### Get your feedback by sharing this post on social media and tag me at @agreent_dev
+
+## Conclusion
+
+HTML is a fun and easy way to make your own website. With a little practice and some creativity, you'll be a pro in no time!
+
+[[Top]](#top)
